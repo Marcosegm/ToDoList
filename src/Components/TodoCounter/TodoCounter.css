@@ -1,0 +1,11 @@
+.title {
+    font-size: 34px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: bolder;
+  }
+  
+  .title span {
+    font-weight: 600;
+  }
