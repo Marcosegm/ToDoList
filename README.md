@@ -1,75 +1,16 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# TODO List utilizando React.js
+![Screenshot_4](https://github.com/Marcosegm/ToDoList/assets/120766403/6339ef94-383b-4a44-8ef7-89d002a8d9b2)
 
-¡Hola, Platzinauta!
+Este proyecto es una aplicación web interactiva de una lista de tareas (TODO list) desarrollada con React.js. En este proyecto, he utilizado los principales conceptos y características de React para crear una experiencia de usuario dinámica y fácil de usar.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+Características destacadas:
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+- Utilización de componentes reutilizables: El proyecto se ha estructurado en componentes de React, lo que facilita la reutilización del código y mejora la mantenibilidad del proyecto.
+- Manejo de propiedades (props): He utilizado props para pasar datos y funcionalidades entre componentes, permitiendo una comunicación efectiva entre ellos.
+- Estilizado con CSS: El diseño de la aplicación se ha implementado utilizando estilos CSS, brindando una apariencia atractiva y coherente.
+- Manejo de estados y efectos de React: He utilizado los estados de React para mantener y actualizar la información en la aplicación, lo que permite una interacción fluida y en tiempo real con los elementos de la lista de tareas. Además, he aplicado efectos de React para gestionar eventos y acciones específicas.
+- Implementación de React Context: Para facilitar el acceso a datos compartidos en diferentes componentes, he utilizado React Context, lo que mejora la eficiencia y la organización del proyecto.
+- Uso de React Portals: He implementado React Portals para renderizar componentes en un nodo DOM específico, lo que permite crear elementos fuera de la jerarquía principal de componentes.
+- Almacenamiento con Local Storage: Para mantener los datos de la lista de tareas persistentes incluso después de recargar la página, he utilizado el almacenamiento local del navegador (Local Storage).
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
-
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Disfruta de esta aplicación web interactiva de lista de tareas y aprovecha todas las funcionalidades que React.js tiene para ofrecer!
