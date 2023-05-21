@@ -5,9 +5,7 @@ import { useState } from "react";
 
 const TodoContext = createContext();
 
-function TodoProvider ({children}) {
-
-     
+function TodoProvider ({children}) { 
   const {
     item: todos,
     saveItem: saveTodos,
@@ -18,13 +16,14 @@ function TodoProvider ({children}) {
   const [searchValue, setSearchValue] = useState("");
   const [openModal, setOpenModal] = useState(false);
 
-  const completedTodos = todos.filter(todo => todo.completed).length;
+  const completedTodos = todos.filter(todo => !!todo.completed).length;
   const totalTodos = todos.length;
 
   const searchedTodos = todos.filter((todo) => {
-    const todoText =  todo.text.toLowerCase()
-    const searchText = searchValue.toLocaleLowerCase()
-    return todoText.includes(searchText)
+    const str = todo.text || 'Bienvenido';
+    const todoText =  str.toLowerCase();
+    const searchText = searchValue.toLocaleLowerCase();
+    return todoText.includes(searchText);
 
   });
 
