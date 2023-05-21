@@ -1,5 +1,6 @@
 .todo-item {
     width: 80%;
+    max-width: 760px;
     list-style: none;
     display: flex;
     flex-direction: row;

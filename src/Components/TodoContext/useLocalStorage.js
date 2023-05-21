@@ -14,7 +14,9 @@ function useLocalStorage (itemName, initialValue) {
         let parsedItem;
         if (!localStorageItem) {
           localStorage.setItem(itemName, JSON.stringify([initialValue]))
-          parsedItem = [];
+          parsedItem = [
+            {text: "Bienvenido", completed: true}
+          ];
         }else {
           parsedItem = JSON.parse(localStorageItem)
           setItem(parsedItem)

@@ -1,8 +1,4 @@
 .createTodo-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -16,9 +12,7 @@
     background-color: #00b5c4;
     cursor: pointer;
     color: aliceblue;
-    /*   background: url("./assets/circle-check.svg") no-repeat;
-    background-size: 90%;
-    background-position: center center; */
+   
   }
   
   .createTodo-container button:hover {

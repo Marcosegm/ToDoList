@@ -5,6 +5,7 @@
     padding: 0 10px;
     margin: 0 auto;
     width: 80%;
+    max-width: 760px;
     height: 2.8em;
     border-radius: 2em;
     border: 3px solid #b4b7bb;
