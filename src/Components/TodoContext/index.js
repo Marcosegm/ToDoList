@@ -20,7 +20,7 @@ function TodoProvider ({children}) {
   const totalTodos = todos.length;
 
   const searchedTodos = todos.filter((todo) => {
-    const str = todo.text || 'Bienvenido';
+    const str = todo.text || '';
     const todoText =  str.toLowerCase();
     const searchText = searchValue.toLocaleLowerCase();
     return todoText.includes(searchText);
